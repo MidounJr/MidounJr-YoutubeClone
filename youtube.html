@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Youtube clone</title>
+<link rel="stylesheet" href="video.css" >
+<link rel="stylesheet" href="header.css">
+<link rel="stylesheet" href="general.css">
+<link rel="stylesheet" href="sidebar.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body >
+<header class="header">  <!--Semantic element-->
+  <div class="left-section">
+    <img class="hamburger-menu" src="Header-icons/hamburger-menu.svg">
+    <img class="youtube-logo" src="Header-icons/youtube-logo.svg">
+  </div>
+
+<div class="middle-section">
+    <input class="search-bar" type="search" placeholder="Search">
+    <button class="search-button"> 
+      <img class="search-icon " src="Header-icons/search.svg"> 
+     <div class="tooltip">Search</div>
+    </button>
+    <button class="voice-button">
+       <img class="voice-icon " src="Header-icons/voice-search-icon.svg"> 
+       <div class="tooltip">Search with your voice</div></button>
+  </div>
+  
+  <div class="right-section">
+    <div class="upload-icon-container">
+      <img class="upload-icon" src="Header-icons/upload.svg">
+      <div class="tooltip">Create</div>
+    </div>
+  <div class="youtube-apps-container">
+    <img class="youtube-apps-icon" src="Header-icons/youtube-apps.svg">
+    <div class="tooltip">Youtube apps</div>
+  </div>
+    <div class="notifications-icons-container">
+    <img class="notifications-icon" src="Header-icons/notifications.svg">
+    <div class="tooltip">Notifications</div>
+    <div class="notifications-number">9</div>  
+  </div>
+    <img class="my-channel-icon" src="profile-pictures/channel_0.jpg">
+  </div>
+
+</header>
+ 
+<nav class="sidebar"> <!-- Semantic element -->
+  
+  <div class="sidebar-link">
+    <img src="side-bar-icons/home.svg">
+    <div class="sidebar-txt"><p class="sidebar-txt">Home</p> </div>
+  </div>
+  <div class="sidebar-link">
+    <img src="side-bar-icons/explore.svg">
+    <div class="sidebar-txt"><p class="sidebar-txt">Explore</p> </div>
+  </div>
+  <div class="sidebar-link">
+    <img src="side-bar-icons/subscriptions.svg">
+    <div class="sidebar-txt"> <p class="sidebar-txt">Subscriptions</p> </div>
+  </div>
+  <div class="sidebar-link">
+    <img src="side-bar-icons/originals.svg">
+    <div class="sidebar-txt"> <p class="sidebar-txt">Originals</p> </div>
+  </div>
+  <div class="sidebar-link">
+    <img src="side-bar-icons/youtube-music.svg">
+    <div class="sidebar-txt"><p class="sidebar-txt">Youtube Music</p></div>
+  </div>
+  <div class="sidebar-link">
+    <img src="side-bar-icons/library.svg">
+    <div ><p class="sidebar-txt">Library</p></div>
+  </div>
+
+</nav>
+
+<main>
+
+  <section class="video-grid">  <!-- Semantic element-->
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=BRZleDk8Olg">
+        <img class="thumbnail" src="thumbnails/THUMBNAIL_14.jpg">
+        <div class="video-time">29:52</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@thetrentwins" target="blank">
+              <img class="profile-picture" src="profile-pictures/channels4_profile.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channels4_profile.jpg">
+              <div>
+                <div class="channel-tooltip-name">
+                  The Tren Twins
+                </div>
+                <div class="channel-tooltip-stats">
+                  840K subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">ATTEMPTING ARNOLDS LEGENDARY CHEST-DAY</p>
+          <p class="video-author">The Tren Twins</p>
+          <p class="video-stats">234K views · 1 day ago</p>
+        </div>
+      </div>
+    </div>
+
+
+    
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <div class="video-time">14:20</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@markiplier" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channel-2 (1).jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-2 (1).jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  Markiplier
+                </div>
+                <div class="channel-tooltip-stats">
+                  35,4M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">Try Not To Laugh Challenge #9</p>
+          <p class="video-author">Markiplier</p>
+          <p class="video-stats">19M views · 4 years ago</p>
+        </div>
+      </div>
+    
+ </div>
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=eY5cZITcrF4&t=3s">
+        <img class="thumbnail" src="thumbnails/thumbnail-16.jpg">
+        <div class="video-time">7:02</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@ufc" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channels7_profile.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channels7_profile.jpg">
+              <div>
+                <div class="channel-tooltip-name">
+                  UFC
+                </div>
+                <div class="channel-tooltip-stats">
+                  16,6M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Sean O'Malley KOs Aljamain Sterling at UFC 292
+            </p>
+          <p class="video-author">UFC</p>
+          <p class="video-stats">1M views · 1 hour ago
+  
+          </p>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=094y1Z2wpJg">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+        <div class="video-time">22:08</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@veritasium" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channel-4.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-4.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  Veritasium
+                </div>
+                <div class="channel-tooltip-stats">
+                  14,1M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture</p>
+          <p class="video-author">Veritasium</p>
+          <p class="video-stats">35M views · 2 years ago</p>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=86CQq3pKSUw">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+        <div class="video-time">11:16</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@markiplier" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channel-5.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-5.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  CS Dojo
+                </div>
+                <div class="channel-tooltip-stats">
+                  1,91M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Kadane's Algorithm to Maximum Sum Subarray Problem</p>
+          <p class="video-author">CS Dojo</p>
+          <p class="video-stats">646K views · 7 years ago</p>
+        </div>
+      </div>
+    
+    </div>
+   
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="hhttps://www.youtube.com/watch?v=yXWw0_UfSFg">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+        <div class="video-time">19:59</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@MrBeast" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channel-6.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-6.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  MrBeast
+                </div>
+                <div class="channel-tooltip-stats">
+                  177M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Anything You Can Fit In The Circle I'll Pay For</p>
+          <p class="video-author">MrBeast</p>
+          <p class="video-stats">249M views · 3 years ago</p>
+        </div>
+      </div>
+    
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+        <div class="video-time">10:13</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@RealLifeLore" target="blank">
+              <img class="profile-picture" src="profile-pictures/channel-7.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-7.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  RealLifeLore
+                </div>
+                <div class="channel-tooltip-stats">
+                  7,07M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">Why Planes Don't Fly Over Tibet</p>
+          <p class="video-author">RealLifeLore</p>
+          <p class="video-stats">8.3M views · 2 years ago</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=NheuOb__HrIY">
+        <img class="thumbnail" src="thumbnails/thumbnail_13.jpg">
+        <div class="video-time">21:50</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@Chakibelmoussaoui" target="blank">
+              <img class="profile-picture" src="profile-pictures/channel_13.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel_13.jpg">
+              <div>
+                <div class="channel-tooltip-name">
+                  Chakib el moussaoui
+                </div>
+                <div class="channel-tooltip-stats">
+                  130k subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title"> reda خاصنا الظهر واسع | حصة عرض الظهر مع</p>
+          <p class="video-author">Chakib el moussaoui
+          </p>
+          <p class="video-stats">8.7K views · 2 days ago</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+        <img class="thumbnail" src="thumbnails/thumbnail-9.webp">
+        <div class="video-time">13:18</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS" target="blank">
+              <img class="profile-picture" src="profile-pictures/channel-9.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-9.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  THENX
+                </div>
+                <div class="channel-tooltip-stats">
+                  7,68M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">The SECRET to Super Human STRENGTH</p>
+          <p class="video-author">THENX</p>
+          <p class="video-stats">23M views · 5 years ago</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        <div class="video-time">14:20</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://youtube.com/c/mkbhd" target="_blank">
+              <img class="profile-picture" src="profile-pictures/channel-1.jpeg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channel-1.jpeg">
+              <div>
+                <div class="channel-tooltip-name">
+                  Marques Brownlee
+                </div>
+                <div class="channel-tooltip-stats">
+                  17,3M subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+          <p class="video-author">Marques Brownlee</p>
+          <p class="video-stats">4.2M views · 2 years ago</p>
+        </div>
+      </div>
+    
+    </div>
+    
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=jw_mnwo9Nag">
+        <img class="thumbnail" src="thumbnails/THUMBNAIL_15.jpg">
+        <div class="video-time">49:13</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@theTechNotice" target="blank">
+              <img class="profile-picture" src="profile-pictures/channels5_profile.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channels5_profile.jpg">
+              <div>
+                <div class="channel-tooltip-name">
+                  Tech Notice
+                </div>
+                <div class="channel-tooltip-stats">
+                  167k subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">Ultimate-ULTIMATE 3D Rendering Workstation Build [$19000] | AMD 3995WX + ASUS 2x RTX 3090</p>
+          <p class="video-author">Tech Notice</p>
+          <p class="video-stats">2,3M views · 1 year ago</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+       <a href="https://www.youtube.com/watch?v=cjyQGND8eFw">
+        <img class="thumbnail" src="thumbnails/THUMBNAIL20.jpg">
+        <div class="video-time">8/45</div>
+       </a>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <div class="profile-picture-container">
+            <a href="https://www.youtube.com/@RealManoWorld" target="blank">
+              <img class="profile-picture" src="profile-pictures/channels20_profile.jpg">
+            </a>
+            <div class="channel-tooltip">
+              <img class="channel-tooltip-picture" src="profile-pictures/channels20_profile.jpg">
+              <div>
+                <div class="channel-tooltip-name">
+                  MANO WORLD
+                </div>
+                <div class="channel-tooltip-stats">
+                  380K subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="video-info">
+          <p class="video-title">Best Moments From Andrew Tate Jail Stream</p>
+          <p class="video-author">MANO WORLD</p>
+          <p class="video-stats">635k views · 6 days ago</p>
+        </div>
+      </div>
+    </div>
+      
+    </section>
+   
+ 
+
+</main>
+
+
+
+</body>
+</html> 
